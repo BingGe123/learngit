@@ -35,13 +35,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor greenColor];
+//    self.view.backgroundColor = [UIColor greenColor];
     
     [self.view addSubview:self.tabView];
     
     UIView *bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, ScreenH-kBottomSafeHeight-50, ScreenW, 40)];
     bottomView.backgroundColor = [UIColor redColor];
     [self.view addSubview:bottomView];
+    
+    self.navigationItem.title = @"啦啦啦";
 }
 
 - (UITableView *)tabView{
