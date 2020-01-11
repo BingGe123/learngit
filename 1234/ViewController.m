@@ -44,6 +44,8 @@
     [self.view addSubview:bottomView];
     
     self.navigationItem.title = @"啦啦啦";
+    
+    
 }
 
 - (UITableView *)tabView{
